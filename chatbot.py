@@ -1,5 +1,6 @@
 from flask import Flask, request
 from webexteamssdk import WebexTeamsAPI, Webhook
+WEBEX_TEAMS_ACCESS_TOKEN="NDQyM2MzNGEtN2QxYS00Mzc4LWI3NWEtN2U4YWEafaefaeNTZhNmZkZTAtZmU3"
 
 flask_app = Flask(__name__)
 api = WebexTeamsAPI(access_token=WEBEX_TEAMS_ACCESS_TOKEN)
